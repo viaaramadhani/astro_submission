@@ -73,7 +73,7 @@ button:hover {
     cursor: pointer;;
 }
 .jew{
-    color: rgb(255, 255, 255);
+    color: rgb(39, 48, 122);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -95,7 +95,6 @@ button:hover {
     padding-right: 1%;
 }
 .pik{
-    padding-top: px;
     border-radius: 50px;
 }
 
@@ -165,7 +164,7 @@ h6{
 }
 
 span{
-    color: rgb(155, 155, 255);
+    color: rgb(255, 255, 255);
 }
 
 .pabout{
@@ -200,6 +199,11 @@ h2{
     color: rgb(99, 83, 83);
     text-align: center;
     padding-top: 50px;
+    color:  rgb(39, 48, 122);
+}
+
+h1{
+    color:  rgb(39, 48, 122);
 }
 
 .apa{
@@ -236,4 +240,33 @@ footer p {
 #nomor{
     color: white;
     font-size: larger;
+}
+
+.HMC{
+    display: flex;
+    gap: 15px;
+    padding-top: 100px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.Desc{
+    padding-top: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.Desc .h1{
+    text-align: left;
+}
+
+.rev{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.phmc{
+    padding-top: 20px;
+    color: rgb(123, 122, 122);
 }
