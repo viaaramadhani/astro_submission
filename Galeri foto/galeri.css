@@ -1,11 +1,25 @@
-/*bagian Galeri*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    /* background-repeat: no-repeat; */
+    /* background-origin: ; */
+}
 li, a, button {
     font-weight: 700;
     font-size: 14px;
     color: rgb(144, 144, 152);
     text-decoration: none;
 }
-
+#active{
+    color: rgb(39, 48, 122);
+    text-decoration:underline;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -16,6 +30,7 @@ header{
     z-index: 100000px;
     position: sticky;
     top: 0;
+    margin-bottom: 15px;
 }
 
 h1,h2,h3,h4,h5,h6, strong {
@@ -42,7 +57,7 @@ a {
     padding: 0px 20px;
 }
 
-nav_nav li a {
+.nav_nav li a {
     transition: all 0.3s ease 0s;
 }
 
@@ -67,8 +82,9 @@ button:hover {
 .logo {
     cursor: pointer;;
 }
-
+/* nav */
 .Galeri{
+    max-width: 100px;
     text-align: center;
     font-size: 100px;
     padding-top: 15px;
@@ -76,22 +92,28 @@ button:hover {
     background-color: rgb(63, 129, 188);
 }
 .background-text .Galeri {
-    background-color: #408bba; /* Warna latar belakang */
-    padding: 5px 10px; /* Padding untuk menjaga jarak dari teks */
-    border-radius: 5px; /* Untuk membuat sudut melengkung */
+    background-color: #408bba; 
+    padding: 5px 10px; 
+    border-radius: 5px;
 }
 .container{
+    overflow-y:hidden;
+    overflow-x: auto;
+    white-space: nowrap;
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
     padding-block: 5rem;
     /*overflow: hidden;*/
 }
-
-.about {
+.about{
+    margin-top: 5px;
+}
+.about p {
     color: rgb(22, 20, 124);
-    font-weight: 1000px;
-   flex-direction: column-reverse;
+    font-size: 30px;
+    font-weight: bold;
+   /* flex-direction: column-reverse; */
     align-items: center;
     text-align: center;
 }
@@ -112,7 +134,7 @@ button:hover {
     position: relative;
     border-color: rgb(0, 0, 0);
     border: #ffffff;
-    width: 300%;
+    width: 90%;
     border-radius: 1.5rem;
     margin-left: 40px;
 }
@@ -128,7 +150,7 @@ button:hover {
     left: 0;
     right: 0;
     margin-inline: auto;
-    /*opacity: 0;*/
+    opacity: 0;
     transition: opacity 1s 1s;
 }
 
