@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    /* background-repeat: no-repeat; */
+    /* background-origin: ; */
+}
+
+li, a, button {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(144, 144, 152);
+    text-decoration: none;
+}
+h1{
+    font-weight: 700;
+    
+}
+.jewa {
+    background-size: cover;
+    background-position: center;
+}
+header{
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #ffffff;
+    filter: drop-shadow(2px 3px 10px rgb(157, 140, 140));
+    z-index: 100000;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.nav_nav{
+    list-style: none;
+    align-items: first baseline;
+    
+}
+.nav_nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_nav li a:hover {
+    color: rgb(39, 48, 122);
+}
+
+button {
+    padding: 8px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 48, 122);
+    
+}
+
+button:hover {
+    background-color: rgb(50, 50, 180);
+}
+
+.logo {
+    cursor: pointer;;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 1000px;
+    background-image: url(logo/WhatsApp\ Image\ 2024-04-25\ at\ 09.42.31_b3b45ed2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    /* text-align: center; */
+}
+.isi{
+    margin-top: 70px;
+    background-color: rgba(94, 92, 92, 0.7);
+    width: 1024px;
+    max-width: 1440px;
+    height: 660px;
+    padding: 17px;
+    padding-left: 23px ;
+    padding-right: 23px;
+
+}
+.isi h1, p{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.bungkusa{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: r  ed; */
+    width: 200px;
+}
+.logox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logox img{
+    width: 100px;
+}
+.logox span{
+    font-size: 5ch;
+    color: white;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-group textarea {
+    resize: none;
+}
+
+label {
+font-size: 14px;
+font-weight: bold;
+color: white;
+margin-bottom: 5px;
+}
+
+input, textarea{
+font-size: 14px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 100%;
+}
+
+input:focus, textarea:focus{
+outline: none;
+box-shadow: 0 0 3px 2px #121e31;
+}
+
+#sumbit {
+    padding: 8px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 48, 122);
+    border: none;
+    margin: 0 auto; 
+    display: block;
+    width: 50%; 
+}
+
+#sumbit:hover {
+    background-color: rgb(50, 50, 180);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(84, 81, 81);
+    color: #fff;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+}
+
+footer span {
+    font-size: 2rem;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#nomor{
+    color: white;
+    font-size: larger;
+}
