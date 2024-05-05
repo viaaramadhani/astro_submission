@@ -53,7 +53,10 @@ a {
 .nav_nav li a:hover {
     color: rgb(39, 48, 122);
 }
-
+.nav_nav a:active{
+    color: rgb(39, 48, 122);
+    text-decoration: underline;
+}
 button {
     padding: 8px 25px;
     border: none;
