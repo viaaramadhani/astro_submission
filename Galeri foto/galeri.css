@@ -20,7 +20,7 @@ li, a, button {
     color: rgb(39, 48, 122);
     text-decoration:underline;
 }
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@ header{
     position: sticky;
     top: 0;
     margin-bottom: 15px;
-}
+} */
 
 h1,h2,h3,h4,h5,h6, strong {
     color: black;
@@ -44,25 +44,56 @@ h1,h2,h3,h4,h5,h6, strong {
     font-size: medium;
 }
 
+li, a, button {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(144, 144, 152);
+    text-decoration: none;
+}
+h1{
+    font-weight: 700;
+    
+}
+.jewa {
+    background-size: cover;
+    background-position: center;
+}
+header{
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #ffffff;
+    filter: drop-shadow(2px 3px 10px rgb(157, 140, 140));
+    z-index: 100000;
+    position: sticky;
+    margin-bottom: 15px;
+    top: 0;
+}
+
 a {
     text-decoration: none;
 }
 .nav_nav{
     list-style: none;
     align-items: first baseline;
-   
+    
 }
 .nav_nav li {
     display: inline-block;
     padding: 0px 20px;
 }
-
 .nav_nav li a {
     transition: all 0.3s ease 0s;
 }
 
 .nav_nav li a:hover {
     color: rgb(39, 48, 122);
+}
+li a:active{
+    color: rgb(39, 48, 122);
+    text-decoration: underline;
 }
 button {
     padding: 8px 25px;
@@ -79,9 +110,6 @@ button:hover {
     background-color: rgb(50, 50, 180);
 }
 
-.logo {
-    cursor: pointer;;
-}
 /* nav */
 .Galeri{
     max-width: 100px;
