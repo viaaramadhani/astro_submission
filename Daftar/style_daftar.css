@@ -118,7 +118,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.satu{
+    padding-right: 4px;
 }
 .logox img{
     width: 100px;

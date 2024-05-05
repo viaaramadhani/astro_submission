@@ -273,3 +273,34 @@ button:hover {
         padding-inline: 2.5rem;
     }
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(84, 81, 81);
+    color: #fff;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+}
+
+footer span {
+    font-size: 2rem;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#nomor{
+    color: white;
+    font-size: larger;
+}
